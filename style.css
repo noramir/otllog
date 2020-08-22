@@ -1,0 +1,112 @@
+/*.body{
+	background: rgb(238,174,202);
+	background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+	margin: 0 auto;
+}*/
+
+/*.mainLogin{
+	background: rgb(238,174,202);
+	background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+	margin: 0 auto;
+}*/
+
+/*.loginContent{
+	margin: 0 auto;
+  	width: 80%;
+  	padding: 15px;
+
+	'https://source.unsplash.com/BtbjCFUvBXs/1920x1080'
+
+  	background: rgb(1,215,155);
+    background: linear-gradient(215deg, rgba(1,215,155,1) 0%, rgba(149,146,203,1) 100%); 
+/*  	padding: 80px 40px 40px 40px;
+}
+*/
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/NoOrDKxUfzo/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2.5% 5%;
+    width: 20%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(229, 229, 217,.7);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+/*#bodyApply{
+	background: url("img/bg1.jpg");
+	background-size: cover;
+
+	overflow: hidden;
+}*/
+/*.applyContent{
+	margin: auto;
+	height: 100%;
+  	width: 100%;
+	padding: 15px;
+}*/
+
+/*.containerApplyHeader{
+	width: auto;
+	height: 20%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	font-weight: bolder;
+}*/
+
+/
+
+/*.containerApply{
+	width: 60%;
+	height: 50%;
+	margin: 0 auto;
+	border: 4px solid white;
+	border-radius: 15px 15px;
+	background-color: blue;
+}*/
+/*
+.containerApply form{
+	padding: 5% 10% 5% 10%;
+	margin: 0 auto;
+}*/
+
+/*#cover {
+    background: rgb(1,215,155);
+	background: linear-gradient(215deg, rgba(1,215,155,1) 0%, rgba(149,146,203,1) 100%); 
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}*/
+
+/*#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}*/
+
+/* only used for background overlay not needed for centering */
+/*form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}*/

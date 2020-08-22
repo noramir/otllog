@@ -1,0 +1,74 @@
+/*#bodyLogin{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(133deg, rgba(158,174,255,1) 0%, rgba(255,143,67,1) 100%);
+}*/
+/* body{
+
+    height: 100vh;
+    background: linear-gradient(320deg, #16ffc3, #3fcbff, #1951ff, #7a19ff, #ff1954, #7a19ff, #1951ff, #3fcbff, #16ffc3);
+    background-size: 1500% 2%;
+    -webkit-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+} */
+
+
+/*.cover   {
+    background: url('https://source.unsplash.com/ub76VSnQneg/1920x1080');
+    filter: blur(2px) grayscale(50%);
+    -webkit-filter: blur(2px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/*.filter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+}*/
+.containerLogin{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2.5% 5%;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.8);
+    box-shadow: 0 0 10px rgba(255,255,255,.5);
+}
+.containerLogin h1{
+    margin-bottom: 25px;
+    border-bottom: 4px solid red;
+}
+/*.containerLogin label{
+    font-weight: bolder;
+    color: black;
+}*/
+.containerLogin form button{
+    background-color: rgb(232,232,232);
+    color: black; 
+   
+}
+.containerLogin form button:hover {
+    background-color: #00FA9A;	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

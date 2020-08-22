@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;  
+}*/
+/*#bodyApply{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+/*.cover   {
+
+    background:url('https://source.unsplash.com/EA7vfFpTJB4/1920x1080');
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/*
+body{
+    margin: 0 auto;
+    background: linear-gradient(320deg, #16ffc3, #3fcbff,#1951ff, #7a19ff, #ff1954, #7a19ff, #1951ff, #3fcbff, #16ffc3);
+    background-size: 20000% 2%; -webkit-animation: AnimationName 37s ease
+    infinite; animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+
+}*/
+body {
+/*  display: -ms-flexbox;
+  display: flex;*/
+  -ms-flex-align: center;
+  align-items: center;
+/*  padding-top: 40px;*/
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  height: 100vh;
+  overflow-y: hidden;
+
+}
+
+.container{
+    width: 30%;
+    height: initial;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 1.5%;
+}
+.container label{
+    font-weight: bolder;
+    text-transform: uppercase;
+/*    border-top: 5px solid white;
+    border-left: 2px solid white;
+    border-radius: 15px;
+    vertical-align: middle;*/
+}
+/*.containerApply input{
+    border-radius: 45px;
+}*/
+
+.container form button{
+/*    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;*/
+
+    color: rgb(220,220,220);
+    background: rgb(88, 142, 191);
+/*    padding: 15px 40px;*/
+/*    border-radius: 4px;*/
+/*    font-weight: normal;*/
+    transition: all 0.2s ease-in-out;
+}
+
+.container form button:hover {
+    color: rgba(229, 229, 217);
+    background: rgb(0, 100, 191);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}

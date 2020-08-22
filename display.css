@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background: linear-gradient(320deg, #16ffc3, #3fcbff, #1951ff, #7a19ff, #ff1954, #7a19ff, #1951ff, #3fcbff, #16ffc3);
+    background-size: 2000% 2%;
+    -webkit-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+
+/*.cover   {
+
+    background:url('https://source.unsplash.com/WKT3TE5AQu0/1920x1080');
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/*.containerDisplay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2.5% 2.5%;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.8);
+  box-shadow: 0 0 10px rgba(255,255,255,.5);
+}
+*/
+.containerDisplay h1{
+    margin-bottom: 25px;
+    border-bottom: 4px solid rgb(7, 138, 218);
+}
+.containerDisplay label, th{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+table.dataTable thead tr {
+    background-color: rgba(114, 147, 168);
+}
+table.dataTable tbody tr {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-bottom: 1px solid black;
+}
